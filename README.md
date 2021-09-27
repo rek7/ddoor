@@ -7,7 +7,7 @@ ddor is a cross platform light weight backdoor that uses txt records to execute 
 + List of around 10 public DNS servers that it randomly chooses from
 + Unpredictable call back times
 + Encrypts txt record using xor with custom password
-+ Supports DNS over HTTPS
++ Supports DNS over HTTPS (Shoutout to Keith @keharv for adding this!)
 #### Linux Features:
 + Anti-Debugging, if ptrace is detected as being attached to the process it will exit.
 + Process Name/Thread names are cloaked, a fake name overwrites all of the system arguments and file name to make it seem like a legitimate program.
